@@ -8,5 +8,11 @@ namespace MicroTimeRPG
 {
     public class HexBattleGrid
     {
+        SortedList<int, SortedList<int, GridTile>> gameGrid;
+        List<GridEntity> gridEntities;
+
+
+
+
     }
 }
